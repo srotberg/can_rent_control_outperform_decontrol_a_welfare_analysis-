@@ -1,1 +1,7 @@
-# the_welfare_consequences_of_rent_control
+Replication code for "The Welfare Consequences of Rent Control" by Shahar Rotberg and Lin Zhang
+
+The "code" folder contains the Fortran code that runs the quantitative experiments. Please see the text file "readme.txt" in this folder for detailed instructions on how to compile and run the code.
+
+The "data and figures" folder contains the Census 2016 and SFS 2019 data and a Python script that produces all of the figures in the paper. Please ensure that you run this script AFTER running the Fotran code (otherwise you will not have the required output files).
+
+The "outputs" folder includes all the simulations we ran.
