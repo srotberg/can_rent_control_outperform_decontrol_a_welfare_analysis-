@@ -1,6 +1,6 @@
     module Global_Vars
 
-		implicit none
+	implicit none
         
         ! Variables to set (5 variables)
         integer, parameter :: remove_controlled_market=0
@@ -15305,8 +15305,16 @@
                             sum(total_rental_supply(transition_length,:))))
                     
                     end if
+		    
+                    if ((share_of_free_market_rent>0) .AND. (share_of_free_market_rent<0.1)) then
                         
-                    rental_market_adjuster=0.0005
+                        rental_market_adjuster=0.0005
+                        
+                    else
+                    
+                        rental_market_adjuster=0.00005
+                    
+                    end if
                     
                     if (remove_controlled_market==1) then
                     
