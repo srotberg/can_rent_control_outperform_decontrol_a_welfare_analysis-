@@ -2,7 +2,7 @@ clear
 
 local year=2016
 
-local path="G:\My Drive\Academic\price_it_right_can_rent_control_beat_the_market\data\census_"+"`year'"
+local path="G:\My Drive\Academic\can_rent_control_outperform_decontrol_a_welfare_analysis\data\census_"+"`year'"
 
 cd "`path'"
 
