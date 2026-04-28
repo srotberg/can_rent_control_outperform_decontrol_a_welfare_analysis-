@@ -3,7 +3,7 @@ This file shows you how to run the simulations in "Rent Control? Bad in Theory, 
 Before running each simulation you will have to run the following commands:
 
 Write the command in the line below and press enter:
-gfortran rent_control_bad_in_theory_not_always_in_practice_Rotberg_Zhang_v3.f90 -I/usr/local/include -lm -mcmodel=medium -fopenmp -g -o rent_control_bad_in_theory_not_always_in_practice
+gfortran rent_control_bad_in_theory_not_always_in_practice_Rotberg_Zhang_v5.f90 -I/usr/local/include -lm -mcmodel=medium -fopenmp -g -o rent_control_bad_in_theory_not_always_in_practice
 
 Write the command in the line below and press enter:
 ./rent_control_bad_in_theory_not_always_in_practice
