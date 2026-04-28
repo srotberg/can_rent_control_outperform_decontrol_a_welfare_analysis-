@@ -20,7 +20,7 @@ For generating the benchmark, please set:
         give_lump_sum_to_renters=0      
         give_to_bottom_of_distribution=0
         distribute_to_below_these_productivities=9
-        distribution_to_below_these_age=1
+        distribution_to_below_these_ages=1
         is_counterfactual=0
 
 Experiments 1, 2, 3, and 4
@@ -35,7 +35,7 @@ Experiments 1, 2, 3, and 4
         give_lump_sum_to_renters=0      
         give_to_bottom_of_distribution=0
         distribute_to_below_these_productivities=9
-        distribution_to_below_these_age=1
+        distribution_to_below_these_ages=1
         is_counterfactual=1
 
 
@@ -49,7 +49,7 @@ Experiments 1, 2, 3, and 4
         give_lump_sum_to_renters=1
         give_to_bottom_of_distribution=0
         distribute_to_below_these_productivities=9
-        distribution_to_below_these_age=1
+        distribution_to_below_these_ages=60
         is_counterfactual=1
 
 3. Experiment 3:
@@ -62,7 +62,7 @@ Experiments 1, 2, 3, and 4
         give_lump_sum_to_renters=1      
         give_to_bottom_of_distribution=0
         distribute_to_below_these_productivities=9
-        distribution_to_below_these_age=60
+        distribution_to_below_these_ages=1
         is_counterfactual=1
 
 4. Experiment 4:
@@ -75,8 +75,5 @@ Experiments 1, 2, 3, and 4
         give_lump_sum_to_renters=1   
         give_to_bottom_of_distribution=0
         distribute_to_below_these_productivities=9
-        distribution_to_below_these_age=1
+        distribution_to_below_these_ages=1
         is_counterfactual=1
-
-        
-
