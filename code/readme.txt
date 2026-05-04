@@ -13,46 +13,46 @@ At the very top of the Fortran code there is a module titled "Global_Vars". At t
 For generating the benchmark, please set:
 
 	remove_controlled_market=0
-        random_assignment=0
-        redistribute_as_income_tax_reduction=1
-        give_lump_sum_to_renters=0
+    random_assignment=0
+    redistribute_as_income_tax_reduction=1
+    give_lump_sum_to_renters=0
 	govt_get_full_profits=0
-        is_counterfactual=0
+    is_counterfactual=0
 
 Experiments 1, 2, 3, and 4
 
 1. For Experiment 1, please set:
 
 	remove_controlled_market=1
-        redistribute_as_income_tax_reduction=1
-        give_lump_sum_to_renters=0
+    redistribute_as_income_tax_reduction=1
+    give_lump_sum_to_renters=0
 	govt_get_full_profits=0
 	random_assignment=0
-        is_counterfactual=1
+    is_counterfactual=1
 
 2. Experiment 2:
 
 	remove_controlled_market=1
-        redistribute_as_income_tax_reduction=0
-        give_lump_sum_to_renters=1
+	redistribute_as_income_tax_reduction=0
+    give_lump_sum_to_renters=1
 	govt_get_full_profits=0
 	random_assignment=0
-        is_counterfactual=1
+    is_counterfactual=1
 
 3. Experiment 3:
 
 	remove_controlled_market=1
-        redistribute_as_income_tax_reduction=0
-        give_lump_sum_to_renters=1
+    redistribute_as_income_tax_reduction=0
+    give_lump_sum_to_renters=1
 	govt_get_full_profits=1
 	random_assignment=0
-        is_counterfactual=1
+    is_counterfactual=1
 
 4. Experiment 4:
 
 	remove_controlled_market=0
-        redistribute_as_income_tax_reduction=1
-        give_lump_sum_to_renters=0
+    redistribute_as_income_tax_reduction=1
+    give_lump_sum_to_renters=0
 	govt_get_full_profits=0
 	random_assignment=1
-        is_counterfactual=1
+    is_counterfactual=1
