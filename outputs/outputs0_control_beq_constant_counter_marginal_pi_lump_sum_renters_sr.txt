@@ -1,0 +1,978 @@
+ period           1
+ hours to finish simulaion   26.487999118611111     
+ is_counterfactual           1
+ include_mobility_costs           0
+ include_labor_distortions           0
+ include_evictions           0
+ rebate_federal_revenues           1
+ two_rental_markets           1
+ redistribute_profits           1
+ redistribute_only_counterfactaual_profits,           1
+ distribute_profits_to_renters_only           0
+ distribute_to_below_these_productivities           9
+ distribution_to_below_these_age          60
+ include_shocks_to_free_market_rent           0
+ remove_free_market           0
+ remove_controlled_market           1
+ max_tracking          20
+ include_impact_of_homelessness_on_wages           0
+ homelessness_parameter_impact_on_wages   0.0000000000000000     
+ unregulated_stock_utilization  0.46799999475479126     
+ partial_equilibrium           0
+ adjust_prices           1
+ adjust_rents           1
+ adjust_taxes           1
+ adjust_bequests           0
+ adjust_profits           1
+ max_debt_to_income_ratio  0.38999998569488525     
+ max_debt_to_income_ratio_below_80  0.38999998569488525     
+ tax_system_type           2
+ fraction_of_property_taxes_in_GDS   1.0000000000000000     
+ include_housing_depreciation_in_housing_costs           0
+ have_probablistic_death           0
+ unregulated_stock_share_benchmark  0.40470254421234131     
+ unregulated_stock_share  0.40470249280064852     
+ model_fraction_controlled_benchmark=   0.0000000000000000     
+ infinite_elasticity_of_rental_supply           0
+ other_rental_supply_elasticity           0
+ rent_control_premium_data   5.9000000357627869E-002
+ target_30_perc           1
+ total_rental_demand(j,1)/sum(total_rental_demand(j,:))   0.0000000000000000     
+ check_tax_incidence           0
+ min_consumption_guaranteed   0.0000000000000000     
+ re_do_simulation_with_fixed_parameters           1
+ calibrate_only_rental_management_costs           0
+ financial_grid_expander_negative   1.2500000000000000     
+ financial_grid_expander_positive   4.0000000000000000     
+ housing_status_grid_expander   1.2500000000000000     
+ do_internal_computations           1
+ file number0_control_beq_constant_counter_marginal_pi_lump_sum_renters_sr                                                                                                                                                                                                                                              
+ benchmark_simulation_title_control_sorting_benchmark_marginal_profits                                                                                                                                                                                                                                                                 
+ long_run_simulation_title_control_sorting_benchmark_marginal_profits                                                                                                                                                                                                                                                                 
+ loop_count          22
+ smallest_rental_relative_to_lowest_income  0.69999998807910002     
+ curvature_of_penalty_by_income   1.2999999523162842     
+ reduction_in_probability_of_staying_or_moving_up  0.12600000202655792     
+ elasticity_of_rental_supply_data  0.30000001192092896     
+ risk_free_rate   2.7699999511240001E-002
+ prepayment_penalty_starts_from  0.17399000723216684     
+ average_fraction_of_mortgage_repaid   1.7000000923871994E-002
+ fraction_to_repay   1.7000000923871994E-002
+ mortgage_origination_cost   6.8365784292277404E-003
+ penalty_months_of_interest   0.0000000000000000     
+ FRED_housing_services_to_GDP  0.25400000810623169     
+ SCF_homeownership_rate  0.66500002145767212     
+ renters_spend_over_X_data  0.40999999642372131     
+ SCF_mortgage_to_gross_housing_wealth  0.21500000357627869     
+ SFS_households_with_mortgage  0.55000001192092896     
+ aftr_how_mny_lps_start_update           0
+ negative_consumption           0
+ weight_on_housing_price   1.9999999552965164E-002
+ average_welfare_of_youngest_cohort  -81.051223535479906     
+ frac_in_support_youngest   6.0829643145826470E-003
+ average_welfare_of_retired  -31.936800210823399     
+ frac_in_support_retired  0.98678270508291921     
+ average_welfare_of_all_cohorts  -52.234289345568996     
+ frac_in_support  0.57836271037464171     
+ frac_in_support_homeowners  0.95207763325224082     
+ frac_in_support_renters   8.3436484581019488E-002
+ housing_price   13.246547253249311     
+ housing_price/calibrated_stationary_housing_price   1.0189651733268701     
+ calibrated_stationary_housing_price   13.000000000000000     
+ long_run_stationary_housing_price   13.000000000000000     
+ model_homeownership_rate  0.66297266772542296     
+ model_years_in_same_rental   1.0000000000000000                            NaN   1.0000000000000000     
+ total_rental_demand   11.707920391306544     
+ total_rental_supply   11.765886659417825     
+ rent_to_housing_price   5.2400000393390656E-002
+ model_average_rent  0.79490353243517908     
+ total_rental_demand   0.0000000000000000     
+ total_rental_supply   0.0000000000000000     
+ rent_to_housing_price   5.2400000393390656E-002
+ model_average_rent   100.00000000000000     
+ total_rental_supply   11.765886659417825     
+ rent  0.79490063412184830     
+ rent_calibrated  0.76332950592041005     
+ rent/rent_calibrated   1.0413597639768559     
+ rent   100.00000000000000     
+ rent_calibrated  0.80836594704270004     
+ rent/rent_calibrated   123.70634904381707     
+ model_average_rent  0.79490353243517908     
+ model_average_rent   100.00000000000000     
+ model_average_rent  0.79490353243517908     
+ rent_premium   125.80142862574908     
+ model_average_income_by_market   1.3639712372627066     
+ model_average_income_by_market                       NaN
+ model_average_renter_income   1.3664615863743022     
+ model_percentile_of_net_wealth   13.182682315908171     
+ model_eviction_rate   0.0000000000000000     
+ model_median_renter_income   0.0000000000000000     
+ model_average_income_by_market ratio                       NaN
+ model_average_age_by_market   20.273012483484937     
+ model_average_age_by_market                       NaN
+ max_years_random           1
+ include_shocks_to_free_market_rent           0
+ rent_shock_grid_size           1
+ shock_to_rent   0.0000000000000000     
+ probability_of_rent_shock   1.0000000000000000     
+ model_average_rent(:)/average_rent_calibrated(:)   1.0413635609129350        148.53398800596830        1.1200503793174479     
+ rent_decrease_per_year   1.8999999389052391E-002
+ proportion_inheritance  0.18276375532150269     
+ rent/housing_price   6.0008356686320145E-002
+ model_fraction_of_property_tax_paid_by_renters   0.0000000000000000     
+ model_fraction_living_with_parents                       NaN
+ model_fraction_living_with_parents_above_max_age   0.0000000000000000     
+ model_fraction_homeless (%)  0.44404036642515321     
+ model_fraction_homeless_not_lowest_employment  0.21295680308054177     
+ c_1   47.322885144977000     
+ c_1_calibrated   47.322885144977000     
+ c_min   8.0667457941500000     
+ c_min_calibrated   8.0667457941500000     
+ rental_management_costs   1.8555475598917397E-005
+ rental_management_costs_calibrated   1.8555475598917397E-005
+ rental_rental_management_costs*disutility_of_landlords*total_rental_supply(j)**(disutility_of_landlords-1)/rent(j)  0.38061932750916072     
+ cutoff_housing_investment  0.20708477981439999     
+ housing_investment  0.32200159566006226     
+ cutoff_housing_investment_calibrated  0.20708477981439999     
+ housing_stock   53.666932143518935     
+ calibrated_housing_stock   52.777031172499001     
+ long_run_housing_stock   5.0000000000000000     
+ total_housing_demand   53.617157614760750     
+ housing grid size           7
+ smallest_house_size  0.27695907959247001     
+ size_move_back  0.30000001192093001     
+ size_homeless  0.46000000834465027     
+ mobility_costs   0.0000000000000000     
+ largest_house_size   1.6499999761581421     
+ index_of_smallest_house_hhld_can_buy           4
+ housing_size(index_of_smallest_house_hhld_can_buy)  0.97500002384186002     
+ smallest_house_size/housing_size(index_of_smallest_house_hhld_can_buy)  0.28406058750762797     
+ largest_house_size_hhld_can_rent           6
+ total_housing_demand   53.617157614760750     
+ empirical housing_stock_elasticity  0.88999998569488525     
+ total_constrcution_profits   2.2568303623369887     
+ total_rental_company_profits   6.8960411028787556     
+ total_profits   9.1528714652157444     
+ profits_per_household   7.5005426278576912E-002
+ 100*profits_per_household/model_average_labour_income   3.7190994690067432     
+ model_homeownership rate youngest cohort   0.0000000000000000     
+ labour_deterministic_efficiency(           1 )   1.0000000000000000     
+ labour_deterministic_efficiency(           2 )   1.0970829883590341     
+ labour_deterministic_efficiency(           3 )   1.1790916866157204     
+ labour_deterministic_efficiency(           4 )   1.2578801847994328     
+ labour_deterministic_efficiency(           5 )   1.3334484829101712     
+ labour_deterministic_efficiency(           6 )   1.4057965809479356     
+ labour_deterministic_efficiency(           7 )   1.4749244789127260     
+ labour_deterministic_efficiency(           8 )   1.5408321768045425     
+ labour_deterministic_efficiency(           9 )   1.6035196746233851     
+ labour_deterministic_efficiency(          10 )   1.6629869723692536     
+ labour_deterministic_efficiency(          11 )   1.7192340700421482     
+ labour_deterministic_efficiency(          12 )   1.7722609676420689     
+ labour_deterministic_efficiency(          13 )   1.8220676651690155     
+ labour_deterministic_efficiency(          14 )   1.8686541626229882     
+ labour_deterministic_efficiency(          15 )   1.9120204600039870     
+ labour_deterministic_efficiency(          16 )   1.9521665573120117     
+ labour_deterministic_efficiency(          17 )   1.9890924545470625     
+ labour_deterministic_efficiency(          18 )   2.0227981517091393     
+ labour_deterministic_efficiency(          19 )   2.0532836487982422     
+ labour_deterministic_efficiency(          20 )   2.0805489458143711     
+ labour_deterministic_efficiency(          21 )   2.1045940427575260     
+ labour_deterministic_efficiency(          22 )   2.1254189396277070     
+ labour_deterministic_efficiency(          23 )   2.1430236364249140     
+ labour_deterministic_efficiency(          24 )   2.1574081331491470     
+ labour_deterministic_efficiency(          25 )   2.1685724298004061     
+ labour_deterministic_efficiency(          26 )   2.1765165263786912     
+ labour_deterministic_efficiency(          27 )   2.1812404228840023     
+ labour_deterministic_efficiency(          28 )   2.1827441193163395     
+ labour_deterministic_efficiency(          29 )   2.1810276156757027     
+ labour_deterministic_efficiency(          30 )   2.1760909119620919     
+ labour_deterministic_efficiency(          31 )   2.1679340081755072     
+ labour_deterministic_efficiency(          32 )   2.1565569043159485     
+ labour_deterministic_efficiency(          33 )   2.1419596003834158     
+ labour_deterministic_efficiency(          34 )   2.1241420963779092     
+ labour_deterministic_efficiency(          35 )   2.1031043922994286     
+ labour_deterministic_efficiency(          36 )   2.0788464881479740     
+ labour_deterministic_efficiency(          37 )   2.0513683839235455     
+ labour_deterministic_efficiency(          38 )   2.0206700796261430     
+ labour_deterministic_efficiency(          39 )   1.9867515752557665     
+ labour_deterministic_efficiency(          40 )   1.9496128708124161     
+ labour_deterministic_efficiency(          41 )   0.0000000000000000     
+ labour_deterministic_efficiency(          42 )   0.0000000000000000     
+ labour_deterministic_efficiency(          43 )   0.0000000000000000     
+ labour_deterministic_efficiency(          44 )   0.0000000000000000     
+ labour_deterministic_efficiency(          45 )   0.0000000000000000     
+ labour_deterministic_efficiency(          46 )   0.0000000000000000     
+ labour_deterministic_efficiency(          47 )   0.0000000000000000     
+ labour_deterministic_efficiency(          48 )   0.0000000000000000     
+ labour_deterministic_efficiency(          49 )   0.0000000000000000     
+ labour_deterministic_efficiency(          50 )   0.0000000000000000     
+ labour_deterministic_efficiency(          51 )   0.0000000000000000     
+ labour_deterministic_efficiency(          52 )   0.0000000000000000     
+ labour_deterministic_efficiency(          53 )   0.0000000000000000     
+ labour_deterministic_efficiency(          54 )   0.0000000000000000     
+ labour_deterministic_efficiency(          55 )   0.0000000000000000     
+ labour_deterministic_efficiency(          56 )   0.0000000000000000     
+ labour_deterministic_efficiency(          57 )   0.0000000000000000     
+ labour_deterministic_efficiency(          58 )   0.0000000000000000     
+ labour_deterministic_efficiency(          59 )   0.0000000000000000     
+ labour_deterministic_efficiency(          60 )   0.0000000000000000     
+ model_fraction_of_renters_in_housing_size(:)   4.3392105343134743E-002  0.34501683083082352       0.53487240045045115        4.8577386873836101E-002   2.0038104692275058E-002   7.0519827317043144E-003   1.0511890777791719E-003
+ model_renting_lowest_quality_in_free_market(:)   1.0000000000000000        0.0000000000000000     
+ model_renting_lowest_quality_in_free_market(:)   1.0000000000000000        0.0000000000000000     
+ model_total_income   82.943989776432886     
+ model_total_expenditures   83.298979059734648     
+ total income-total expenditures  0.35498928330176227     
+ aggregate_consumption   58.112647594061031     
+ aggregate_housing_consumption   3.3280647713901583     
+ (total_housing_demand(j)-sum(total_rental_demand(j,:)))*housing_depreciation_rate*housing_price(j)   3.3309161763221953     
+ aggregate_mortgage_consumption   3.2668664616448635     
+ mortgage_interest_rate*model_mortgages   3.2668664616449044     
+ aggregate_housing_transaction_costs   1.4598955913276404     
+ aggregate_origination_costs   2.8127525076716089E-002
+ aggregate_prepayment_costs   0.0000000000000000     
+ (aggregate_origination_costs(j)+aggregate_prepayment_costs(j))/model_GDP_incl_imput_rent(j)   2.4687292408092748E-004
+ net_govt_revenues   2.7494684819939126     
+ net_govt_revenues_1   9.8007560103668734     
+ housing_price(j)*sum(total_rental_demand(j,:))*property_tax(j)  0.69769820355474055     
+ aggregate_rent_spending   9.3066672765194358     
+ aggregate_rent_spending   9.3066672765194358     
+ govt_revenues_from_labour_income_no_profits   15.945239275605273     
+ govt_revenues_from_labour_income   16.258409952862685     
+ output   80.670524575787155     
+ GDP   80.670524575787155     
+ model_total_investment_income   2.2734652006457314     
+ model total_wages   80.670524575787155     
+ wage to output   1.0000000000000000     
+ model_GDP_incl_imput_rent   113.93523684879918     
+ total_rent_paid/total_renters_income  0.34130317895001500     
+ model_fraction_of_renters_in_housing_size   4.3392105343134743E-002
+ model_fraction_of_renters_in_housing_size  0.34501683083082352     
+ model_fraction_of_renters_in_housing_size  0.53487240045045115     
+ model_fraction_of_renters_in_housing_size   4.8577386873836101E-002
+ model_fraction_of_renters_in_housing_size   2.0038104692275058E-002
+ model_fraction_of_renters_in_housing_size   7.0519827317043144E-003
+ model_fraction_of_renters_in_housing_size   1.0511890777791719E-003
+ distribution_stationary(           1 :,:,           1 )   1.2787276446454407E-002
+ distribution_stationary(           1 :,:,           2 )   7.8156375354378291E-002
+ distribution_stationary(           1 :,:,           3 )  0.23721482531559343     
+ distribution_stationary(           1 :,:,           4 )  0.34390432575880980     
+ distribution_stationary(           1 :,:,           5 )  0.23723035931255243     
+ distribution_stationary(           1 :,:,           6 )   7.8151991984236002E-002
+ distribution_stationary(           1 :,:,           7 )   1.2554845827975314E-002
+ distribution_stationary_all(           1 :,:,           1 )   1.2632998651125075E-002
+ distribution_stationary_all(           1 :,:,           2 )   7.7090697999432106E-002
+ distribution_stationary_all(           1 :,:,           3 )  0.23762267890226291     
+ distribution_stationary_all(           1 :,:,           4 )  0.34546847616549259     
+ distribution_stationary_all(           1 :,:,           5 )  0.23762524097401236     
+ distribution_stationary_all(           1 :,:,           6 )   7.7082991722645836E-002
+ distribution_stationary_all(           1 :,:,           7 )   1.2476915585028215E-002
+ distribution_stationary_youngest(           1 1,:,           1 )   6.0829643145826461E-003
+ distribution_stationary_youngest(           1 1,:,           2 )   5.9928210559280347E-002
+ distribution_stationary_youngest(           1 1,:,           3 )  0.24175223120766975     
+ distribution_stationary_youngest(           1 1,:,           4 )  0.38447318783693429     
+ distribution_stationary_youngest(           1 1,:,           5 )  0.24175223120766987     
+ distribution_stationary_youngest(           1 1,:,           6 )   5.9928210559280458E-002
+ distribution_stationary_youngest(           1 1,:,           7 )   6.0829643145826461E-003
+ model_housing_value_per_capita   0.0000000000000000     
+ model_average_net_wealth   8.6772151111877989     
+ total financial wealth   82.074557428176604     
+ total net housing wealth   438.55834924309187     
+ total mortgage debt   110.36711189365026     
+ total net wealth   520.63290667126864     
+ model_total_workers   39.999999999999702     
+ model_average_labour_income_tax  0.19477114644204968     
+ fraction of hhlds who make it to the highest net wealth   1.4964661949790913E-004
+ consumption tax  0.12999999523162842     
+ investment_income_tax  0.15000000596046448     
+ property_tax   4.4986805066029624E-003
+ net_govt_revenue_constraint   2.7533125130929998     
+ net housing wealth to total wealth  0.84235618537266366     
+ NPV of gross govt revenues   26.242078625655360     
+ federal_govt_revenues   6.6091583684836763     
+ NPV of net govt revenues   2.7494684819939126     
+ % of GDP raised in net govt revenues   3.4082690009172834     
+ % of GDP raised in gross govt revenues   32.529946673399692     
+ % of gross govt revenues from labour income tax   61.955495922368662     
+ % of gross govt revenues from consumption tax   28.788283191635504     
+ % of gross govt revenues from investment income tax   0.0000000000000000     
+ % of gross govt lump sum transfers   1.2211064675847561     
+ % of gross govt_rent_subsidies   0.0000000000000000     
+ % of gross govt revenues spent on social security   64.337326383405440     
+ govt_revenues_from_labour_income   16.258409952862685     
+ govt_revenues_from_consumption   7.5546439101253151     
+ govt_revenues_from_investment_income   0.0000000000000000     
+ govt_revenues_from_property_tax   3.1915976418831939     
+ govt_spending_homelessness  0.44212915988928131     
+ property_tax(j)*(total_housing_demand(j)-total_rental_demand(j))*housing_price(j)   2.4974545902161216     
+ property_tax(j)*total_rental_demand(j)*housing_price(j)  0.69769820355474055     
+ govt_rent_subsidies   0.0000000000000000     
+ govt_lump_sum_transfers  0.32044371932655447     
+ model_bequests   11.700814366859177     
+ model_bequests/model_net_wealth   2.2474212092489104E-002
+ risk_free_rate   2.7699999511240001E-002
+ model average labour income   2.0167631143946938     
+ model_average_rent_to_income_ratio  0.37592146682443406     
+ model_ss_benefits  0.47608903763114163       0.51258324112272291       0.63964829596730000       0.82104183103146011        1.0518518834913175        1.2544504991748633        1.3278779214513385     
+ model_ss_benefits  0.47608903763114163     
+ model_ss_benefits  0.51258324112272291     
+ model_ss_benefits  0.63964829596730000     
+ model_ss_benefits  0.82104183103146011     
+ model_ss_benefits   1.0518518834913175     
+ model_ss_benefits   1.2544504991748633     
+ model_ss_benefits   1.3278779214513385     
+ employment_grid(           1 )  0.31668194520147896     
+ employment_grid(           2 )  0.46460320629429092     
+ employment_grid(           3 )  0.68161807949488173     
+ employment_grid(           4 )   1.0000000000000000     
+ employment_grid(           5 )   1.4670972353624445     
+ employment_grid(           6 )   2.1523742980081280     
+ employment_grid(           7 )   3.1577423820729074     
+ lump_sum_transfer   1.5805130200317496E-002
+ profits_per_household   7.5005426278576912E-002
+ property_tax_on_rental_housing   0.0000000000000000     
+ lump_sum_transfer/average_income   7.8368798435017040E-003
+ increase_in_labour_income_tax   0.0000000000000000     
+ advantage_to_owning   0.0000000000000000     
+ increase_so_landlord_lets_unit_deteriorate   0.0000000000000000     
+ discount factor  0.95999997854232999     
+ labor_income_tax_rate  0.87740784883499001     
+ curvature_of_labor_income_taxes  0.92750000953674316     
+ disutility_of_landlords   4.3391091492650000     
+ elasticity_to_calibrate_to   1.0000000000000000     
+ relative_share_of_housing  0.38499999046326000     
+ himmelberg_etal_rent_to_price   5.2400000393390656E-002
+ free_market_rent_to_house_price   5.2400000393390656E-002
+ model_quality_difference(0)   1.0000000000000000     
+ model_quality_difference(1)                       NaN
+ model_quality_difference(0)/model_quality_difference(1)                       NaN
+ model_average_rental_unit_size(j)  0.58670978843670052     
+ model_average_rental_unit_size_by_market           0   0.58670978843670052     
+ model_average_rental_unit_size_by_market           1                        NaN
+ model_average_rental_unit_size_by_market ratio                       NaN
+ model_average_rent_spending_by_market           0   0.46637768334262980     
+ model_average_rent_spending_by_market           1                        NaN
+ model_average_owner_occupied_unit_size(j)   1.0526444683017724     
+ model_average_rental_unit_size(j)/model_average_owner_occupied_unit_size(j)  0.55736747411330378     
+ housing_price(j)*model_average_owner_occupied_unit_size(j)/(model_GDP_incl_imput_rent(j)/total_population)   7.3430687867365698     
+ housing_price(j)*model_average_owner_occupied_unit_size(j)/model_average_labour_income(j)   6.9140022398793288     
+ largest_housing_size_consumed_in_equilibrium           6
+ largest_financial_chosen_in_equilibrium         200
+ smallest_financial_chosen_in_equilibrium           1
+ fraction_with_largest_housing_size_consumed_in_eqilibrium   3.4733876907347777E-002
+ fraction_with_largest_years_holding_onto_asset_in_eqilibrium   0.0000000000000000     
+ fraction_with_smallest_financial_in_eqilibrium   3.7425105426884063E-002
+ largest income grid   10.000000000000000     
+ financial grid points         200
+ financial grid points internal          15
+ multiples of income   10.000000000000000     
+ set_rental_opportunity_probability   8.2064412534236908E-002
+ probability_rental_opportunity   1.0000000000000000     
+ random_assignment           0
+ housing depreciation rate   6.0000000521540642E-003
+ deterioration_controlled_units   6.0000000521540642E-003
+ model_wealth_of_owners   12.213972580519705     
+ model_wealth_of_renters   1.6982784351873443     
+ housing depreciation expenditures   7.9479284210357146E-002
+ model_fraction_of_homeowners_with_mortgage  0.47629391620418293     
+ model fraction of households with mortgage  0.31576984824727622     
+ model_fraction_of_homeowners_with_mortgage_over_80_perc   0.0000000000000000     
+ fraction of households with mortgage ober 80 perc   0.0000000000000000     
+ total population   60.000000000000000     
+ fraction of retired households in popualtoin  0.33333333333333193     
+ mortgage_interest_rate   2.9599999543277498E-002
+ total efficiency units   80.670524575787155     
+ model financial wealth to output   1.0174045335613309     
+ model net housing wealth to output   5.4364137527218075     
+ model total net wealth to output   6.4538182862831404     
+ model_fraction_cannot_consume_market_housing(j)   0.0000000000000000     
+ model_net_housing_wealth/model_total_net_wealth  0.84235618537266366     
+ model mortgage debt to gross housing wealth  0.20106028906929652     
+ model_gross_housing_wealth   548.92546113674211     
+ model_fraction_living_in_free   1.0000000000000000     
+ life span          60
+ retirement_span          20
+ wealth to GDP   6.4538182862831404     
+ mortgage_interest_rate(j)*model_mortgages(j)   3.2668664616449044     
+ financial wealth to GDP   1.0174045335613309     
+ net housing wealth to GDP   5.4364137527218075     
+ mass_by_employment  0.70451250229295292        4.4243825274861992        14.245463284161064        20.728108569303380        14.257514458440642        4.6249795033587517       0.74861493510168808     
+ model_total_net_wealth/model_GDP_incl_imput_rent   4.5695512737836195     
+ model total net wealth to GDP with imputed rents   4.5695512737836195     
+ model total net wealth to output   6.4538182862831404     
+ gross housing wealth to GDP   6.8045356593788568     
+ minimum_downpayment  0.20000000298023224     
+ risk_aversion_consumption   2.0000000000000000     
+ risk_aversion_housing   2.0000000000000000     
+ permanent labour_deterministic_efficiency slope  0.92340499162673950     
+ employment_grid(           1 )  0.31668194520147896     
+ employment_grid(           2 )  0.46460320629429092     
+ employment_grid(           3 )  0.68161807949488173     
+ employment_grid(           4 )   1.0000000000000000     
+ employment_grid(           5 )   1.4670972353624445     
+ employment_grid(           6 )   2.1523742980081280     
+ employment_grid(           7 )   3.1577423820729074     
+ stopping_rule_stationary_distribution   1.0000000000000000E-008
+ stopping_rule_cutoff_housing_investment   1.0000000000000001E-005
+ stopping_rule_value_function   4.9999999999999998E-008
+ stopping_rule_housing_market   1.4999999999999999E-002
+ stopping_rule_rental_market   7.9999998211860657E-002
+ distance_value_function   1.0000000000000000     
+ distance_housing_market   1.4085170404824154E-002
+ distance_rental_market   5.7966268111281138E-002
+ income_cutoffs_of_quintiles(i)  0.91999705919512598     
+ income_cutoffs_of_quintiles(i)   1.2320971592950072     
+ income_cutoffs_of_quintiles(i)   1.6204986585130285     
+ income_cutoffs_of_quintiles(i)   2.2325895704461378     
+ quintile           1   0.19889849063107018     
+ mass_of_quintile           1    11.933909437864227     
+ tenure_by_income_quintile   13.810114342729243     
+ quintile           2   0.19871182341635316     
+ mass_of_quintile           2    11.922709404981205     
+ tenure_by_income_quintile   10.902119939440352     
+ quintile           3   0.19971705165348358     
+ mass_of_quintile           3    11.983023099209030     
+ tenure_by_income_quintile   11.397471267900190     
+ quintile           4   0.19911928299359574     
+ mass_of_quintile           4    11.947156979615761     
+ tenure_by_income_quintile   12.125511146991107     
+ quintile           5   0.19911294764124440     
+ mass_of_quintile           5    11.946776858474680     
+ tenure_by_income_quintile   11.498359083083908     
+ employment_process(           1           1 )  0.78145703160577074       0.21826579192519091        2.7717599005345074E-004   4.7898493588914543E-010   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ employment_process(           1           2 )   3.9188967545138079E-002  0.79508553136185744       0.16559297230918785        1.3252864498871600E-004   1.3882800112773561E-010   0.0000000000000000        0.0000000000000000     
+ employment_process(           1           3 )   1.1449243312617641E-005   5.8870299895537576E-002  0.82010649509731670       0.12095107306418965        6.0682661156531236E-005   3.8486899663271195E-011   0.0000000000000000     
+ employment_process(           1           4 )   1.0289839240950177E-011   2.6825945261087972E-005   8.5698179954324577E-002  0.82854998818024872        8.5698179954324757E-002   2.6825945261087972E-005   1.0289897033775897E-011
+ employment_process(           1           5 )   0.0000000000000000        3.8486841835887335E-011   6.0682661156415565E-005  0.12095107306418984       0.82010649509731659        5.8870299895537673E-002   1.1449243312617636E-005
+ employment_process(           1           6 )   0.0000000000000000        0.0000000000000000        1.3882805905160906E-010   1.3252864498877387E-004  0.16559297230918801       0.79508553136185722        3.9188967545137891E-002
+ employment_process(           1           7 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        4.7898487828610685E-010   2.7717599005350847E-004  0.21826579192519047       0.78145703160577107     
+ sum(employment_process(           1           1 :)   1.0000000000000000     
+ sum(employment_process(           1           2 :)   1.0000000000000002     
+ sum(employment_process(           1           3 :)   1.0000000000000000     
+ sum(employment_process(           1           4 :)  0.99999999999999989     
+ sum(employment_process(           1           5 :)   1.0000000000000000     
+ sum(employment_process(           1           6 :)   1.0000000000000000     
+ sum(employment_process(           1           7 :)  0.99999999999999989     
+ intergenerational_employment_process(           1 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           2 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           3 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           4 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           5 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           6 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ intergenerational_employment_process(           7 )   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ sum(intergenerational_employment_process(           1 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           2 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           3 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           4 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           5 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           6 :)   0.0000000000000000     
+ sum(intergenerational_employment_process(           7 :)   0.0000000000000000     
+ model_wealth_of_top_x_perc(           1 )/model_net_wealth   3.5510942130407119E-002
+ stopping_rule_wealth_dist(           1 )   9.9999997764825821E-003
+ model_wealth_of_top_x_perc(           2 )/model_net_wealth  0.25677350284061984     
+ stopping_rule_wealth_dist(           2 )  0.10000000149011612     
+ model_wealth_of_top_x_perc(           3 )/model_net_wealth  0.44067287440074471     
+ stopping_rule_wealth_dist(           3 )  0.20000000298023224     
+ model_wealth_of_top_x_perc(           4 )/model_net_wealth  0.84428438681775497     
+ stopping_rule_wealth_dist(           4 )  0.50000000000000000     
+ model_wealth_of_top_x_perc(           5 )/model_net_wealth   0.0000000000000000     
+ stopping_rule_wealth_dist(           5 )   0.0000000000000000     
+ gini_coefficient  0.45624966059873839     
+ gini_coefficient_income   0.0000000000000000     
+ model_average_financial   1.3679092904696095     
+ model_mass_with_positive_financial   60.000000000000021     
+ total_profits   9.1528714652157444     
+ total_marginal_profits   1.6668148970057439     
+ model_free_renters_in_bottom_quintile_spending_over_50  0.20660569585369035     
+ welfare_of_quintile            1    -95.259797906415031     
+ welfare_of_quintile            2    -80.314015443091407     
+ welfare_of_quintile            3    -69.878378778735367     
+ welfare_of_quintile            4    -60.701004776386654     
+ welfare_of_quintile            5    -53.296637736747535     
+ rent_to_income_cdf_0   0.0000000000000000     
+ rent_to_income_cdf_1   0.0000000000000000     
+ rent_to_income_cdf_2   0.0000000000000000     
+ rent_to_income_cdf_3   0.0000000000000000     
+ rent_to_income_cdf_4   0.0000000000000000     
+ rent_to_income_cdf_5   0.0000000000000000     
+ rent_to_income_cdf_6   0.0000000000000000     
+ rent_to_income_cdf_7   1.6921990360793887E-008
+ rent_to_income_cdf_8   1.6921990360793887E-008
+ rent_to_income_cdf_9   3.3872458148670326E-006
+ rent_to_income_cdf_10   4.6205302404229867E-006
+ rent_to_income_cdf_11   4.6205302409099892E-006
+ rent_to_income_cdf_12   9.8890566574784319E-005
+ rent_to_income_cdf_13   2.2488691548749759E-004
+ rent_to_income_cdf_14   2.5746727251046872E-004
+ rent_to_income_cdf_15   2.6177966134643640E-004
+ rent_to_income_cdf_16   4.1298129565055876E-004
+ rent_to_income_cdf_17   1.5515309898492104E-003
+ rent_to_income_cdf_18   5.8198746259497773E-003
+ rent_to_income_cdf_19   9.0167368422966084E-003
+ rent_to_income_cdf_20   1.3280356898006954E-002
+ rent_to_income_cdf_21   1.7446883795883331E-002
+ rent_to_income_cdf_22   2.6382437744016426E-002
+ rent_to_income_cdf_23   4.4481743568249778E-002
+ rent_to_income_cdf_24   7.8684486185747068E-002
+ rent_to_income_cdf_25  0.11005555660326245     
+ rent_to_income_cdf_26  0.13690926993994273     
+ rent_to_income_cdf_27  0.16065930290464234     
+ rent_to_income_cdf_28  0.17865741053416473     
+ rent_to_income_cdf_29  0.20664341488670485     
+ rent_to_income_cdf_30  0.22365362921736104     
+ rent_to_income_cdf_31  0.25360975370452615     
+ rent_to_income_cdf_32  0.29491697593449495     
+ rent_to_income_cdf_33  0.36891436615518042     
+ rent_to_income_cdf_34  0.40510721151308643     
+ rent_to_income_cdf_35  0.44711106139837686     
+ rent_to_income_cdf_36  0.52769688134546466     
+ rent_to_income_cdf_37  0.56709405258608914     
+ rent_to_income_cdf_38  0.58989434211125369     
+ rent_to_income_cdf_39  0.63544842948117908     
+ rent_to_income_cdf_40  0.64850670641280217     
+ rent_to_income_cdf_41  0.68218613333050349     
+ rent_to_income_cdf_42  0.71787918909373005     
+ rent_to_income_cdf_43  0.73454382886663805     
+ rent_to_income_cdf_44  0.79286310171445551     
+ rent_to_income_cdf_45  0.81745177542063852     
+ rent_to_income_cdf_46  0.84467565255287891     
+ rent_to_income_cdf_47  0.85955150350179932     
+ rent_to_income_cdf_48  0.88031482435188357     
+ rent_to_income_cdf_49  0.89014144122143635     
+ rent_to_income_cdf_50  0.89796780639586782     
+ rent_to_income_cdf_51  0.90569642303331221     
+ rent_to_income_cdf_52  0.91371863834464917     
+ rent_to_income_cdf_53  0.92943362583572076     
+ rent_to_income_cdf_54  0.93677451988220795     
+ rent_to_income_cdf_55  0.94205842938879647     
+ rent_to_income_cdf_56  0.94736765442427040     
+ rent_to_income_cdf_57  0.95147512209359786     
+ rent_to_income_cdf_58  0.95596608760254553     
+ rent_to_income_cdf_59  0.95969003643155082     
+ rent_to_income_cdf_60  0.96176839702863859     
+ rent_to_income_cdf_61  0.96338292953075544     
+ rent_to_income_cdf_62  0.96402872308219334     
+ rent_to_income_cdf_63  0.96573866278632059     
+ rent_to_income_cdf_64  0.96612288929408729     
+ rent_to_income_cdf_65  0.96670213927768844     
+ rent_to_income_cdf_66  0.96777359856358303     
+ rent_to_income_cdf_67  0.96846473799003885     
+ rent_to_income_cdf_68  0.96858158528830940     
+ rent_to_income_cdf_69  0.97147211888175911     
+ rent_to_income_cdf_70  0.97317807645225951     
+ rent_to_income_cdf_71  0.97380646089522460     
+ rent_to_income_cdf_72  0.97462777681912316     
+ rent_to_income_cdf_73  0.98547181738884204     
+ rent_to_income_cdf_74  0.98548809132004167     
+ rent_to_income_cdf_75  0.98551063162835373     
+ rent_to_income_cdf_76  0.98578393241704165     
+ rent_to_income_cdf_77  0.98578803748067301     
+ rent_to_income_cdf_78  0.98612466824027400     
+ rent_to_income_cdf_79  0.98615330953181202     
+ rent_to_income_cdf_80  0.98620417511777392     
+ rent_to_income_cdf_81  0.99316128537804682     
+ rent_to_income_cdf_82  0.99386148004887265     
+ rent_to_income_cdf_83  0.99391887578905158     
+ rent_to_income_cdf_84  0.99397772060286549     
+ rent_to_income_cdf_85  0.99398735864005372     
+ rent_to_income_cdf_86  0.99401178570756710     
+ rent_to_income_cdf_87  0.99587641083151401     
+ rent_to_income_cdf_88  0.99612942200890897     
+ rent_to_income_cdf_89  0.99620791947646348     
+ rent_to_income_cdf_90  0.99632232061069581     
+ rent_to_income_cdf_91  0.99643221549900551     
+ rent_to_income_cdf_92  0.99765304953175371     
+ rent_to_income_cdf_93  0.99765713251690236     
+ rent_to_income_cdf_94  0.99767618049621976     
+ rent_to_income_cdf_95  0.99768731442927105     
+ rent_to_income_cdf_96  0.99782838055018430     
+ rent_to_income_cdf_97  0.99797127335856450     
+ rent_to_income_cdf_98  0.99797820391157721     
+ rent_to_income_cdf_99  0.99798727576053969     
+ rent_to_income_cdf_100   1.0000000000000040     
+ LTV_age_group1  0.74733770880491923     
+ LTV_age_group2  0.70761909989307326     
+ LTV_age_group3  0.63729814648896577     
+ LTV_age_group4  0.57999663607510499     
+ LTV_age_group5  0.49224959414194736     
+ LTV_age_group6  0.36806108621610584     
+ LTV_age_group7  0.22781235293272556     
+ LTV_age_group8   9.3113323270079748E-002
+ LTV_age_group9   9.0558149152437876E-003
+ LTV_age_group10   0.0000000000000000     
+ LTV_age_group11   0.0000000000000000     
+ LTV_age_group12   0.0000000000000000     
+ homeownership_age1   0.0000000000000000     
+ homeownership_age2   0.0000000000000000     
+ homeownership_age3   0.0000000000000000     
+ homeownership_age4   2.5641052966388403E-003
+ homeownership_age5   3.8800783709784202E-002
+ homeownership_age6   6.0530003625578185E-002
+ homeownership_age7   9.2380162540129721E-002
+ homeownership_age8  0.15878331934736112     
+ homeownership_age9  0.23115340238225968     
+ homeownership_age10  0.26589282231133854     
+ homeownership_age11  0.33345417160272983     
+ homeownership_age12  0.37597804716110661     
+ homeownership_age13  0.42870186064092414     
+ homeownership_age14  0.49350437047556145     
+ homeownership_age15  0.51210622975605635     
+ homeownership_age16  0.52897429766645299     
+ homeownership_age17  0.54792214509986781     
+ homeownership_age18  0.57012225121223015     
+ homeownership_age19  0.58783706759897469     
+ homeownership_age20  0.60667698096557321     
+ homeownership_age21  0.62920107754203480     
+ homeownership_age22  0.65597162263537390     
+ homeownership_age23  0.68101884953545511     
+ homeownership_age24  0.70837243671442685     
+ homeownership_age25  0.73930426718160192     
+ homeownership_age26  0.76998909458751164     
+ homeownership_age27  0.79690603673439853     
+ homeownership_age28  0.82735482154123097     
+ homeownership_age29  0.84745662113807252     
+ homeownership_age30  0.86788531797817403     
+ homeownership_age31  0.88287926465441724     
+ homeownership_age32  0.89529511364253556     
+ homeownership_age33  0.90572084464561742     
+ homeownership_age34  0.90989582335336294     
+ homeownership_age35  0.91430843234146753     
+ homeownership_age36  0.91432892809274635     
+ homeownership_age37  0.91624865864928973     
+ homeownership_age38  0.91786218050867907     
+ homeownership_age39  0.91977119166275245     
+ homeownership_age40  0.92039868261361879     
+ homeownership_age41  0.91531286113553934     
+ homeownership_age42  0.80883112118929146     
+ homeownership_age43  0.80916145504569126     
+ homeownership_age44  0.80943822276708266     
+ homeownership_age45  0.80967243241819953     
+ homeownership_age46  0.80981846647037725     
+ homeownership_age47  0.80990606647466734     
+ homeownership_age48  0.80995289457521535     
+ homeownership_age49  0.80997552109609627     
+ homeownership_age50  0.80998570864556185     
+ homeownership_age51  0.80999003293593341     
+ homeownership_age52  0.80999175297958992     
+ homeownership_age53  0.80999225130881447     
+ homeownership_age54  0.80999254660181141     
+ homeownership_age55  0.80999254673907040     
+ homeownership_age56  0.80999258046954714     
+ homeownership_age57  0.80998617396540673     
+ homeownership_age58  0.81000065165864465     
+ homeownership_age59  0.81115155039960729     
+ homeownership_age60  0.65062642365941126     
+ homelessness_age1   1.1001862478977151E-003
+ homelessness_age2   8.4097593890531384E-004
+ homelessness_age3   0.0000000000000000     
+ homelessness_age4   0.0000000000000000     
+ homelessness_age5   0.0000000000000000     
+ homelessness_age6   0.0000000000000000     
+ homelessness_age7   0.0000000000000000     
+ homelessness_age8   0.0000000000000000     
+ homelessness_age9   0.0000000000000000     
+ homelessness_age10   0.0000000000000000     
+ homelessness_age11   0.0000000000000000     
+ homelessness_age12   0.0000000000000000     
+ homelessness_age13   0.0000000000000000     
+ homelessness_age14   0.0000000000000000     
+ homelessness_age15   0.0000000000000000     
+ homelessness_age16   0.0000000000000000     
+ homelessness_age17   0.0000000000000000     
+ homelessness_age18   0.0000000000000000     
+ homelessness_age19   0.0000000000000000     
+ homelessness_age20   0.0000000000000000     
+ homelessness_age21   0.0000000000000000     
+ homelessness_age22   0.0000000000000000     
+ homelessness_age23   0.0000000000000000     
+ homelessness_age24   0.0000000000000000     
+ homelessness_age25   0.0000000000000000     
+ homelessness_age26   0.0000000000000000     
+ homelessness_age27   0.0000000000000000     
+ homelessness_age28   0.0000000000000000     
+ homelessness_age29   0.0000000000000000     
+ homelessness_age30   0.0000000000000000     
+ homelessness_age31   0.0000000000000000     
+ homelessness_age32   0.0000000000000000     
+ homelessness_age33   0.0000000000000000     
+ homelessness_age34   0.0000000000000000     
+ homelessness_age35   0.0000000000000000     
+ homelessness_age36   0.0000000000000000     
+ homelessness_age37   0.0000000000000000     
+ homelessness_age38   6.2148587693595017E-010
+ homelessness_age39   0.0000000000000000     
+ homelessness_age40   5.7904987003750742E-008
+ homelessness_age41   1.8729731638397080E-007
+ homelessness_age42   4.1778364461344990E-006
+ homelessness_age43   7.9881974128785031E-006
+ homelessness_age44   1.1293010286533486E-005
+ homelessness_age45   1.4269568238859839E-005
+ homelessness_age46   2.0421836046577830E-005
+ homelessness_age47   2.8915522111490408E-005
+ homelessness_age48   3.8567000033399375E-005
+ homelessness_age49   4.8810027008389328E-005
+ homelessness_age50   5.4711424222460449E-005
+ homelessness_age51   7.7907059739438180E-005
+ homelessness_age52   1.0579631525440049E-004
+ homelessness_age53   1.2009885996192482E-004
+ homelessness_age54   1.3612932863193731E-004
+ homelessness_age55   1.9026253365467290E-004
+ homelessness_age56   2.2332111660811394E-004
+ homelessness_age57   2.4987063574372239E-004
+ homelessness_age58   3.0862379563692473E-004
+ homelessness_age59   4.1453702270368234E-004
+ homelessness_age60   4.4329456391769200E-004
+ welfare_youngest_employment_index1  -122.59786784699644     
+ welfare_youngest_employment_index2  -105.62081568614084     
+ welfare_youngest_employment_index3  -92.003514582544710     
+ welfare_youngest_employment_index4  -80.314015443091407     
+ welfare_youngest_employment_index5  -69.878378778735367     
+ welfare_youngest_employment_index6  -60.701004776386654     
+ welfare_youngest_employment_index7  -53.296637736747535     
+ welfare_employment_index1  -88.600037510737707     
+ welfare_employment_index2  -75.370194042153372     
+ welfare_employment_index3  -61.689893091705244     
+ welfare_employment_index4  -50.619423140163711     
+ welfare_employment_index5  -42.184504256720977     
+ welfare_employment_index6  -35.748923857391681     
+ welfare_employment_index7  -30.343613062459500     
+ support1   6.0829643145826470E-003
+ support2   9.0612093556264491E-003
+ support3   9.1826000440985260E-003
+ support4   1.2880830604031567E-002
+ support5   2.4023673431099356E-002
+ support6   6.8505773297197523E-002
+ support7  0.10686245444130238     
+ support8  0.13558535199065760     
+ support9  0.22788610691857478     
+ support10  0.28608142314283813     
+ support11  0.33642453458511073     
+ support12  0.38576871349848790     
+ support13  0.43581540910873778     
+ support14  0.52811634534657304     
+ support15  0.57987041045066989     
+ support16  0.61415285500731431     
+ support17  0.64490854695006072     
+ support18  0.67304452411114046     
+ support19  0.69623426834344060     
+ support20  0.71995169937988224     
+ support21  0.74760104858622256     
+ support22  0.76937989142020313     
+ support23  0.78921136779131285     
+ support24  0.80312206034023392     
+ support25  0.81288497170001828     
+ support26  0.79984383132430248     
+ support27  0.80641361295717995     
+ support28  0.81276420902210733     
+ support29  0.81810478692466515     
+ support30  0.82110822243191861     
+ support31  0.81727547259851452     
+ support32  0.81941971274802650     
+ support33  0.81786265787523393     
+ support34  0.81155601767574015     
+ support35  0.81074851941462878     
+ support36  0.80356594114503765     
+ support37  0.80393741621388415     
+ support38  0.80017145960054425     
+ support39  0.79893283865358067     
+ support40  0.79979548910198495     
+ support41  0.77769055786064589     
+ support42  0.78320783217924406     
+ support43  0.70450580103866556     
+ support44  0.69643956030906440     
+ support45  0.68442911706595921     
+ support46  0.67183057398373613     
+ support47  0.66052876394451854     
+ support48  0.64766475422351599     
+ support49  0.63356098242921022     
+ support50  0.61646060726482421     
+ support51  0.59832895723797164     
+ support52  0.57663425794789958     
+ support53  0.56007660278367899     
+ support54  0.54619963739644517     
+ support55  0.53121965190419274     
+ support56  0.51897886597399956     
+ support57  0.50421511369322347     
+ support58  0.47440600517122200     
+ support59  0.42590693970852395     
+ support60  0.52533881851511255     
+ welfare_age1  -81.051223535479906     
+ welfare_age2  -80.341536599918584     
+ welfare_age3  -79.728772301444408     
+ welfare_age4  -79.159503390839362     
+ welfare_age5  -78.494724227573300     
+ welfare_age6  -77.818417331742893     
+ welfare_age7  -77.075800333546709     
+ welfare_age8  -76.235272009549362     
+ welfare_age9  -75.295257142068650     
+ welfare_age10  -74.287713082762551     
+ welfare_age11  -73.257198425475664     
+ welfare_age12  -72.105845655971251     
+ welfare_age13  -70.892812772658687     
+ welfare_age14  -69.665654322534763     
+ welfare_age15  -68.515346254402729     
+ welfare_age16  -67.336924534862476     
+ welfare_age17  -66.139432378077359     
+ welfare_age18  -64.956026824143279     
+ welfare_age19  -63.800992939541914     
+ welfare_age20  -62.657889493503482     
+ welfare_age21  -61.526940088372328     
+ welfare_age22  -60.422249986555926     
+ welfare_age23  -59.320247350683744     
+ welfare_age24  -58.225713961946866     
+ welfare_age25  -57.176904934875928     
+ welfare_age26  -56.127749867896100     
+ welfare_age27  -55.097712095224317     
+ welfare_age28  -54.061460766109015     
+ welfare_age29  -53.069778573248428     
+ welfare_age30  -52.097780057168123     
+ welfare_age31  -51.116468492211041     
+ welfare_age32  -50.153643366650670     
+ welfare_age33  -49.206192568625831     
+ welfare_age34  -48.273008478503911     
+ welfare_age35  -47.352712336526821     
+ welfare_age36  -46.417959422967108     
+ welfare_age37  -45.525432554002293     
+ welfare_age38  -44.650740322804573     
+ welfare_age39  -43.779666711687121     
+ welfare_age40  -42.902651025524825     
+ welfare_age41  -42.030052603800144     
+ welfare_age42  -41.086810153761050     
+ welfare_age43  -40.295648396692883     
+ welfare_age44  -39.410173611016781     
+ welfare_age45  -38.480573473067295     
+ welfare_age46  -37.506580771049912     
+ welfare_age47  -36.491167862363731     
+ welfare_age48  -35.461600481074662     
+ welfare_age49  -34.391506449508412     
+ welfare_age50  -33.266929332303356     
+ welfare_age51  -32.079479719577279     
+ welfare_age52  -30.840506778976451     
+ welfare_age53  -29.593932369839909     
+ welfare_age54  -28.298798306662633     
+ welfare_age55  -26.955118588077564     
+ welfare_age56  -25.560534862458614     
+ welfare_age57  -24.093536656230601     
+ welfare_age58  -22.551651154327736     
+ welfare_age59  -20.968038142540301     
+ welfare_age60  -19.373364503150071     
+ tenure by income quintile
+ market_0_quintile_1   35.215365446145462     
+ market_0_quintile_2   35.403531169096489     
+ market_0_quintile_3   39.047857986732652     
+ market_0_quintile_4   34.750833940026659     
+ market_0_quintile_5   18.415998222133489     
+ market_1_quintile_1   2.0257588887060916     
+ market_1_quintile_2   3.2247134883703401     
+ market_1_quintile_3   2.0174561238576101     
+ market_1_quintile_4  0.50161063981842502     
+ market_1_quintile_5   5.0917200401777822E-002
+ market_2_quintile_1   2.4231723876553812     
+ market_2_quintile_2   9.5918171225411957     
+ market_2_quintile_3   34.375236930044551     
+ market_2_quintile_4   55.351140423250321     
+ market_2_quintile_5   54.025795135690302     
+ market_3_quintile_1   76.057331756691539     
+ market_3_quintile_2   43.219891750064093     
+ market_3_quintile_3   19.672937213030576     
+ market_3_quintile_4   10.889273655074511     
+ market_3_quintile_5   23.753827058548627     
+ model_fraction_with_different_assets(i)   0.0000000000000000     
+ model_fraction_with_different_assets(i)   1.2317531000047461E-006
+ model_fraction_with_different_assets(i)   7.6984568750296663E-007
+ model_fraction_with_different_assets(i)   1.9397476106495758E-005
+ model_fraction_with_different_assets(i)   7.6909796926730807E-004
+ model_fraction_with_different_assets(i)   1.6091166186192722E-005
+ model_fraction_with_different_assets(i)   3.7061682565678767E-004
+ model_fraction_with_different_assets(i)   3.3317150591784408E-004
+ model_fraction_with_different_assets(i)   2.6419863678636360E-004
+ model_fraction_with_different_assets(i)   1.7536572940946252E-004
+ model_fraction_with_different_assets(i)   5.1662893003749741E-004
+ model_fraction_with_different_assets(i)   4.6996670390783685E-004
+ model_fraction_with_different_assets(i)   5.5355774969901531E-004
+ model_fraction_with_different_assets(i)   8.7308708651337723E-004
+ model_fraction_with_different_assets(i)   1.7400382958410582E-003
+ model_fraction_with_different_assets(i)   9.6622141058042201E-003
+ model_fraction_with_different_assets(i)   2.4669677713186093E-003
+ model_fraction_with_different_assets(i)   2.2620591944597271E-002
+ model_fraction_with_different_assets(i)   5.1910914302172101E-003
+ model_fraction_with_different_assets(i)   2.3875623843952493E-003
+ model_fraction_with_different_assets(i)   2.3110247699933881E-003
+ model_fraction_with_different_assets(i)   2.1367152641893435E-003
+ model_fraction_with_different_assets(i)   3.5233613760944893E-003
+ model_fraction_with_different_assets(i)   3.4987640442615069E-003
+ model_fraction_with_different_assets(i)   2.3910764416887878E-003
+ model_fraction_with_different_assets(i)   4.1196700949913375E-003
+ model_fraction_with_different_assets(i)   6.2508632268843452E-003
+ model_fraction_with_different_assets(i)   2.2765899321704704E-002
+ model_fraction_with_different_assets(i)   7.3952863649820932E-003
+ model_fraction_with_different_assets(i)   9.4958836434754657E-003
+ model_fraction_with_different_assets(i)   4.7527136405424181E-003
+ model_fraction_with_different_assets(i)   5.7732836418988957E-003
+ model_fraction_with_different_assets(i)   5.5734853836026761E-003
+ model_fraction_with_different_assets(i)   6.7428857750740437E-003
+ model_fraction_with_different_assets(i)   1.8691547704893254E-002
+ model_fraction_with_different_assets(i)   1.3838885802700306E-002
+ model_fraction_with_different_assets(i)   7.6531612247032225E-003
+ model_fraction_with_different_assets(i)   5.5695567682550705E-003
+ model_fraction_with_different_assets(i)   8.2158090152219202E-003
+ model_fraction_with_different_assets(i)   8.7143273848974377E-003
+ model_fraction_with_different_assets(i)   1.0873054161927645E-002
+ model_fraction_with_different_assets(i)   7.6037856804487842E-003
+ model_fraction_with_different_assets(i)   1.3638359838935689E-002
+ model_fraction_with_different_assets(i)   1.3542993800184680E-002
+ model_fraction_with_different_assets(i)   1.1248675121885527E-002
+ model_fraction_with_different_assets(i)   1.3969911016811587E-002
+ model_fraction_with_different_assets(i)   1.0242959161263278E-002
+ model_fraction_with_different_assets(i)   9.3458111875836126E-003
+ model_fraction_with_different_assets(i)   1.3336014469406413E-002
+ model_fraction_with_different_assets(i)   1.6361559470677786E-002
+ model_fraction_with_different_assets(i)   1.0320455248004968E-002
+ model_fraction_with_different_assets(i)   1.1723969874977130E-002
+ model_fraction_with_different_assets(i)   1.2246803052665879E-002
+ model_fraction_with_different_assets(i)   1.3388069537368862E-002
+ model_fraction_with_different_assets(i)   1.7544548153304983E-002
+ model_fraction_with_different_assets(i)   1.1337269917056126E-002
+ model_fraction_with_different_assets(i)   1.1432356435673835E-002
+ model_fraction_with_different_assets(i)   1.4622293399706311E-002
+ model_fraction_with_different_assets(i)   1.5857648411034909E-002
+ model_fraction_with_different_assets(i)   1.2137886822257842E-002
+ model_fraction_with_different_assets(i)   1.5286228154769666E-002
+ model_fraction_with_different_assets(i)   1.4209041807836682E-002
+ model_fraction_with_different_assets(i)   1.8960805056389640E-002
+ model_fraction_with_different_assets(i)   1.5360161760635751E-002
+ model_fraction_with_different_assets(i)   2.1028610714357007E-002
+ model_fraction_with_different_assets(i)   4.2323316500137813E-003
+ model_fraction_with_different_assets(i)   4.3291133154912918E-003
+ model_fraction_with_different_assets(i)   3.7107940684417708E-003
+ model_fraction_with_different_assets(i)   3.7412478989604313E-003
+ model_fraction_with_different_assets(i)   4.5981472921983076E-003
+ model_fraction_with_different_assets(i)   5.1744193372689840E-003
+ model_fraction_with_different_assets(i)   5.9657705496724677E-003
+ model_fraction_with_different_assets(i)   6.8105444888511245E-003
+ model_fraction_with_different_assets(i)   8.8567058192924319E-003
+ model_fraction_with_different_assets(i)   1.0649314351513195E-002
+ model_fraction_with_different_assets(i)   1.1783871417316700E-002
+ model_fraction_with_different_assets(i)   1.3017801942160760E-002
+ model_fraction_with_different_assets(i)   1.3728623165787827E-002
+ model_fraction_with_different_assets(i)   1.4577677407304758E-002
+ model_fraction_with_different_assets(i)   1.5358190206165681E-002
+ model_fraction_with_different_assets(i)   1.5183657031507394E-002
+ model_fraction_with_different_assets(i)   1.4513435605978911E-002
+ model_fraction_with_different_assets(i)   1.2770832858512802E-002
+ model_fraction_with_different_assets(i)   9.8897347608920480E-003
+ model_fraction_with_different_assets(i)   6.5648501823023691E-003
+ model_fraction_with_different_assets(i)   4.2160607091786800E-003
+ model_fraction_with_different_assets(i)   2.4586729411885978E-003
+ model_fraction_with_different_assets(i)   1.2579591401071558E-003
+ model_fraction_with_different_assets(i)   4.8511705462584809E-004
+ model_fraction_with_different_assets(i)   2.9130216947631271E-004
+ model_fraction_with_different_assets(i)   1.3019847440826689E-004
+ model_fraction_with_different_assets(i)   1.3896025231974063E-004
+ model_fraction_with_different_assets(i)   1.2142075809297206E-004
+ model_fraction_with_different_assets(i)   8.1430464725597697E-005
+ model_fraction_with_different_assets(i)   1.0644881347923065E-004
+ model_fraction_with_different_assets(i)   1.2622785534737828E-007
+ model_fraction_with_different_assets(i)   8.8883298404464031E-009
+ model_fraction_with_different_assets(i)   2.4178010692478842E-008
+ model_fraction_with_different_assets(i)   1.0222430780710963E-006
+ model_fraction_with_different_assets(i)   1.3662444007073596E-006
